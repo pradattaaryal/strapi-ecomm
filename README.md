@@ -1,0 +1,41 @@
+
+# Server
+HOST=0.0.0.0
+PORT=1337
+
+# Secrets
+APP_KEYS=su+T4G9DeNrbfOhvfF9kWQ==,XRsX2jJIPEMeNT7jsMYIEw==,unslLfH5VrFIk0UbF+ZdWA==,PQ+FLMu2CSWWYblfw6fFPQ==
+API_TOKEN_SALT=+M9bgWgWqlihJwfvAp6I5A==
+ADMIN_JWT_SECRET=WHIL9emkj9jZu7jgvpbsdA==
+TRANSFER_TOKEN_SALT=E/1koT16ZRz5JAPOEz2kYg==
+ENCRYPTION_KEY=KnMaLcRzWAz81mSarQ/U/A==
+
+# Database
+DATABASE_CLIENT=postgres
+DATABASE_HOST=127.0.0.1
+DATABASE_PORT=5439
+DATABASE_NAME=furni_decor
+DATABASE_USERNAME=postgres
+DATABASE_PASSWORD=root
+DATABASE_SSL=false
+DATABASE_FILENAME=
+JWT_SECRET=YX/DwH3mxS9G+cNnJybJuA==
+
+
+ CLIENT_URL=http://localhost:3000
+#STRIPE
+STRIPE_SECRET_KEY=sk_test_51PBbwFFhrbYI1auhiaETjFUJubDXricEdJkWZ2tXJfTWKlGn2C1WaUhQBvGcNigYQVVTMz9VCcL9ul8B2g6UizRF00KbD9kTAu
+STRIPE_WEB_HOOK_SECRET_KEY=we_1SI0rKFhrbYI1auhbdCslHrb
+STRIPE_PUBLIC_KEY=pk_test_51PBbwFFhrbYI1auhDSTfqxWg5BXCwkadhGzozOn0O3KMpeCLSjXxEW7Wz3p8UcyjqSlF4t2z1YRsCc8ZFv2uYDLU00uXCF1PZI
+STRIPE_WEB_HOOK_SIGNITURE=whsec_74HR1P2pKTaupBHPTADlnlrzgU6XwYAO
+API_VERSION= 2025-08-27.basil,
+#stripesec=we_1SGX85FhrbYI1auhbPVaphsA,name,slug,image,quantity,price
+STRAPI_BASE_URL= https://curably-chondriosomal-cherrie.ngrok-free.dev
+
+REDIS_HOST=localhost
+REDIS_PASSWORD=
+REDIS_PORT=6379
+BREVO_API_KEY=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
+
+
+# curl -w "\nTime: %{time_total}s\n" -o /dev/null -s http://localhost:1337/api/home-page/populated
