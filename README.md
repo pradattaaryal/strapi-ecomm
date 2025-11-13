@@ -1,4 +1,4 @@
-
+#Test API KEY and TOKEN
 # Server
 HOST=0.0.0.0
 PORT=1337
