@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "colours",
+  "info": {
+    "singularName": "colour",
+    "pluralName": "colours",
+    "displayName": "Colour"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Colour": {
+      "type": "string"
+    },
+    "Hexcode": {
+      "type": "string"
+    },
+    "product_varients": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product-varient.product-varient",
+      "inversedBy": "colours"
+    }
+  }
+}

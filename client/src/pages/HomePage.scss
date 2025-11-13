@@ -1,0 +1,56 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+
+  .loading {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    color: #666;
+  }
+
+  // Add spacing between sections
+  section {
+    margin-bottom: 4rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* ✅ Responsive Layout */
+@media (max-width: 992px) {
+  .home-page {
+    section {
+      padding: 2rem 4%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home-page {
+    section {
+      flex-direction: column !important;
+      text-align: center;
+
+      .hero-content,
+      .info-content {
+        max-width: 100%;
+      }
+
+      .hero-image,
+      .info-image {
+        margin-top: 2rem;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_share_logos",
+  "info": {
+    "displayName": "Logo"
+  },
+  "options": {},
+  "attributes": {
+    "logotext": {
+      "type": "string"
+    },
+    "logoimage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_pages",
+  "info": {
+    "singularName": "global-page",
+    "pluralName": "global-pages",
+    "displayName": "Global Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

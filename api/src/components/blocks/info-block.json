@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_blocks_info_blocks",
+  "info": {
+    "displayName": "InfoBlock"
+  },
+  "options": {},
+  "attributes": {
+    "reversed": {
+      "type": "boolean",
+      "default": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "headline": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "cta": {
+      "type": "component",
+      "component": "share.link",
+      "repeatable": true
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "Red",
+        "Blue",
+        "Purple"
+      ]
+    }
+  },
+  "config": {}
+}

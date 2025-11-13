@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_blocks_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "component": "share.logo",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heading": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "component": "share.link",
+      "repeatable": false
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "Red",
+        "Blue",
+        "Purple"
+      ]
+    }
+  },
+  "config": {}
+}
